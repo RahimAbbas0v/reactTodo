@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+    padding: 25px;
+    width: 100%;
+    color: white;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.helpBtn,.logBtn{
+    all: unset;
+}
+.signBtn{
+    padding: 9px 14px;
+    border: 1px solid rgb(218, 122, 138);
+    background-color: rgb(218, 122, 138);
+    border-radius: 20px;
+}
